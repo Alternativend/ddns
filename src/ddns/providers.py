@@ -1697,4 +1697,5 @@ class DDNSProviderSchokokeksDNS(DDNSProtocolDynDNS2, DDNSProvider):
        # Information about the format of the request is to be found
        # https://wiki.schokokeks.org/DynDNS
 
-       url = " https://dyndns.schokokeks.org/nic/update?myip=<ipaddr> "
+       url = "https://dyndns.schokokeks.org/nic/update?myip=<ipaddr>"
+
